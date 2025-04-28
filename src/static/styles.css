@@ -81,14 +81,18 @@ section h3 {
 }
 
 .activity-card ul li {
-  margin-bottom: 8px;
-  font-size: 14px;
+  list-style-type: none;
+}
+
+.participant {
   display: flex;
   align-items: center;
   gap: 8px;
+  font-size: 14px;
+  color: #555;
 }
 
-.activity-card ul li::before {
+.participant::before {
   content: "✔️";
   color: #2e7d32;
   font-size: 14px;
